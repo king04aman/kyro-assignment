@@ -1,9 +1,15 @@
-import React from 'react'
+import Box from '@mui/material/Box';
 
-function Dashboard() {
+
+
+const Dashboard = () => {
   return (
-    <div>Dashboard</div>
-  )
+    <>
+        <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
+          <h1> Dashboard </h1>
+        </Box>
+    </>
+  );
 }
 
 export default Dashboard

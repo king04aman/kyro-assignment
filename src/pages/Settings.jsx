@@ -1,9 +1,15 @@
-import React from 'react'
+import Box from '@mui/material/Box';
+
+
 
 const Settings = () => {
   return (
-    <div>Settings</div>
-  )
+    <>
+        <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
+          <h1> Settings </h1>
+        </Box>
+    </>
+  );
 }
 
 export default Settings

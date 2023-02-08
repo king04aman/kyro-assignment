@@ -1,9 +1,14 @@
-import React from 'react'
+import Box from '@mui/material/Box';
 
-function Documents() {
+
+const Documents = () => {
   return (
-    <div>Documents</div>
-  )
+    <>
+        <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
+          <h1> Documents </h1>
+        </Box>
+    </>
+  );
 }
 
 export default Documents

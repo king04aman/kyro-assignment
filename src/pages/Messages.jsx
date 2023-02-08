@@ -1,9 +1,15 @@
-import React from 'react'
+import Box from '@mui/material/Box';
 
-function Messages() {
+
+
+const Messages = () => {
   return (
-    <div>Messages</div>
-  )
+    <>
+        <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
+          <h1> Messages </h1>
+        </Box>
+    </>
+  );
 }
 
 export default Messages
