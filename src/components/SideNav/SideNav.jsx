@@ -170,7 +170,7 @@ export default function SideNav() {
             <Box sx={{ display: "flex", justifyContent: "flex-end", alignItems: "center", flexGrow: 1 }}>
               <Box sx={{ display: 'flex-col', padding: 2 }}>
                 <Typography variant="h6" noWrap component="div" color="black">
-                  Good Morning, Name
+                  Good Morning, Aman
                 </Typography>
                 <Typography variant="p" component="p" color="gray">
                   April 28, 2022
@@ -182,7 +182,7 @@ export default function SideNav() {
                 <IconButton onClick={(event) => setAnchorElUser(event.currentTarget)} sx={{ p: 0 }}>
                   <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
                   <Typography variant="p" component="p" color="black" sx={{ paddingLeft: 1 }}>
-                    Name
+                    Aman
                   </Typography>
                 </IconButton>
                 <Menu
